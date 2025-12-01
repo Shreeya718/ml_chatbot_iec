@@ -1,0 +1,22 @@
+{
+  "intents": [
+    {
+      "tag": "placement_guidance",
+      "patterns": [
+        "how to prepare for campus placements",
+        "what topics should I study for interviews",
+        "give me tips to crack technical rounds",
+        "how can I get ready for aptitude and HR rounds",
+        "placement tips?",
+        "any hacks to clear campus interviews?",
+        "what should I study for coding and DSA rounds?",
+        "how can I improve my communication for HR interviews?"
+      ],
+      "responses": [
+        "Start with strong foundations in Data Structures & Algorithms, revise core CS subjects, and practice solving problems on platforms like LeetCode or Codeforces. Combine this with 2–3 solid projects to showcase practical skills.",
+        "Balance technical prep with communication skills: focus on coding rounds, but also prepare for HR interviews through mock sessions. Keep your resume concise, highlight achievements, and tailor it to the company.",
+        "Create a structured plan: dedicate time daily to problem-solving, review past placement papers, and practice aptitude tests. Pair this with networking and mock interviews to build confidence."
+      ]
+    }
+  ]
+}
