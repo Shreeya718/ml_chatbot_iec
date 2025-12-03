@@ -1,4 +1,36 @@
-venv/
+# --- Python ---
 __pycache__/
 *.pyc
-.env
+*.pyo
+*.pyd
+
+# --- Virtual environment ---
+venv/
+.env/
+
+# --- IDE / Editor garbage ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Model / Embedding files ---
+embeddings_model/*.pkl
+embeddings_model/*.joblib
+
+# If you want to push embeddings, comment the above and uncomment below:
+# !embeddings_model/pattern_vectors.pkl
+# !embeddings_model/labels.pkl
+# !embeddings_model/vocab.pkl
+# !embeddings_model/pattern_tags.pkl
+
+# --- Cache / Logs ---
+*.log
+*.tmp
+
+# --- Flask instance folder ---
+instance/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
