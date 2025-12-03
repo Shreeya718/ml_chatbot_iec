@@ -80,4 +80,8 @@ HTML + CSS + Vanilla JS
 ✔ College AI/ML projects
 ✔ Career-guidance chatbots
 ✔ Local ML chatbot demos
+<<<<<<< HEAD
 ✔ Understanding intent-based NLP
+=======
+✔ Understanding intent-based NLP
+>>>>>>> daaa4e4924644e3e203269855ce42dff910014fa
