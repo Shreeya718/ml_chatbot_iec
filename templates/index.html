@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Career Chatbot</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+
+  <!-- Floating toggle (mobile show/hide) -->
+  <button id="float-toggle" class="float-toggle" aria-label="Open chat">💬</button>
+
+  <div class="chat-shell" id="chat-shell" aria-hidden="true">
+    <div class="chat-header">
+      <div class="header-left">
+        <img src="/static/avatar.png" alt="bot" class="avatar">
+        <div class="title">
+          <div class="name">Career Guide</div>
+          <div class="sub">Friendly • Practical • Brief</div>
+        </div>
+      </div>
+      <div class="header-right">
+        <button id="clear-btn" title="Clear history">Clear</button>
+        <button id="close-btn" title="Close">✕</button>
+      </div>
+    </div>
+
+    <div id="chat-box" class="chat-box" role="log" aria-live="polite"></div>
+
+    <div class="input-row">
+      <input id="user-input" placeholder="Ask about placements, resume, projects..." autocomplete="off" />
+      <button id="send-btn" title="Send">Send</button>
+    </div>
+
+    <div class="footer-note">
+      <small>Responses are guidance — practice & tailor for your interviews.</small>
+      <button id="export-btn" class="export">Export chat</button>
+    </div>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
